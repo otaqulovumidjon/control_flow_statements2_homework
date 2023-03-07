@@ -8,4 +8,16 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    if a<b:
+        if a<c:
+            x = 'a kichik'
+        else:
+            x = 'c kichik'
+    else:
+        if b<c:
+            x = 'b kichik'
+        else:
+            x = 'c kichik'
+    return x
+
+print(main(21,31,4))
