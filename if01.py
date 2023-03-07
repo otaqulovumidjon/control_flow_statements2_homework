@@ -7,5 +7,17 @@ def main(a,b,c):
         c: Third number.
     Returns:
         int: return answer.
-    """
-    return
+    """ 
+    if a>b:
+        if a>c:
+            x="a katta"
+        else:
+            x="c katta"
+    else:
+        if b>c:
+            x="b katta"
+        else:
+            x="c katta"
+    return x
+
+print(main(31, 41, 51))
