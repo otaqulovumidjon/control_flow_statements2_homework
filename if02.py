@@ -8,13 +8,13 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    if a<b:
-        if a<c:
+    if a==int(a) and b==int(b) and a<b:
+        if a==int(a) and c==int(c) and a<c:
             x = 'a kichik'
         else:
             x = 'c kichik'
     else:
-        if b<c:
+        if b==int(b) and c==int(c) and b<c:
             x = 'b kichik'
         else:
             x = 'c kichik'
