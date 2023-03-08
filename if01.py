@@ -8,11 +8,15 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """ 
-    if a>b and a>c:
-        return "a katta"
-    elif b>c and b>a:
-        return "b katta"
-    if c>a and c>b:
-        return "c katta"
+    if a > b:
+        if a > c:
+            return a
+        return c
+    if b > a:
+        if b > c:
+            return b
+        return c
+    return
 
-print(main(31, 41, 51))
+
+print(main(6, 7, 9))
