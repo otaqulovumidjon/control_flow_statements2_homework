@@ -8,11 +8,11 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    if a==int(a) and a<b and a<c:
-        return 'a kichik'
-    if b==int(b) and b<a and b<c:
-        return 'b kichik'
-    if c==int(c) and c<a and c<b:
-        return 'c kichik'
+    if a<b and a<c:
+        return a
+    if b<a and b<c:
+        return b
+    if c<a and c<b:
+        return c
 
-print(main(21.3,31,41))
+print(main(21,31,41))
