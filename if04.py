@@ -7,4 +7,11 @@ def main(a,b):
     Returns:
         int: return answer.
     """
-    return
+    if a>b:
+        x = "a katta"
+    if b>a:
+        x = "b katta"
+    if a==b:
+        x = 0
+    return x
+print(main(85, 85))
