@@ -8,11 +8,11 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """ 
-    if a>b:
+    if a>b and a>c:
         return "a katta"
-    elif b>c:
+    elif b>c and b>a:
         return "b katta"
-    else:
+    if c>a and c>b:
         return "c katta"
 
 print(main(31, 41, 51))
