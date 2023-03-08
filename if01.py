@@ -16,4 +16,4 @@ def main(a,b,c):
         x="c katta"
     return x
 
-print(main(3, 4, 5))
+print(main(3, 41, 5))
