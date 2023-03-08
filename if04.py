@@ -8,10 +8,9 @@ def main(a,b):
         int: return answer.
     """
     if a>b:
-        x = "a katta"
+        return a
     elif b>a:
-        x = "b katta"
+        return b
     if a==b:
-        x = 0
-    return x
+        return 0
 print(main(85, 85))
