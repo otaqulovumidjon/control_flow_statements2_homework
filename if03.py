@@ -18,4 +18,14 @@ def main(a,b,c):
     if a>c and c>b or b>c and c>a:
         return c
 
-print(main(123,345,234))
+    if a==b:
+        return a
+    
+    if b==c:
+        return b
+
+    if c==a:
+        return c
+
+print(main(24,24,23))
+
