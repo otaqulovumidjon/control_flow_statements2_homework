@@ -9,7 +9,7 @@ def main(a,b):
     """
     if a>b:
         x = "a katta"
-    if b>a:
+    elif b>a:
         x = "b katta"
     if a==b:
         x = 0
