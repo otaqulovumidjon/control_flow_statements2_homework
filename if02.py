@@ -15,4 +15,4 @@ def main(a,b,c):
     if c<a and c<b:
         return c
 
-print(main(21,31,41))
+print(main(2,3,4))
