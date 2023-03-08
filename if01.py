@@ -16,7 +16,6 @@ def main(a,b,c):
         if b > c:
             return b
         return c
-    return
 
 
 print(main(6, 7, 9))
