@@ -9,11 +9,11 @@ def main(a,b,c):
         int: return answer.
     """ 
     if a>b:
-        x="a katta"
+        x="First number"
     elif b>c:
-        x="b katta"
+        x="Second number"
     else:
-        x="c katta"
+        x="Third number"
     return x
 
 print(main(3, 41, 5))
