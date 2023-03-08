@@ -10,14 +10,12 @@ def main(a,b,c):
     """
 
     if b>a and a>c or c>a and a>b:
-        x = 'First number'
+        return a
 
     if a>b and b>c or c>b and b>a:
-        x = 'Second number'
-    
+        return b
+
     if a>c and c>b or b>c and c>a:
-        x = 'Third number'
+        return c
 
-    return x
-
-print(main(2, 4, 6))
+print(main(123,345,234))
