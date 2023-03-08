@@ -10,31 +10,8 @@ def main(a,b,c):
     """ 
     if a>b and a>c:
         return a
-    if b>a and b>c:
+    elif b>a and b>c:
         return b
     if c>a and c>b:
         return c
 print(main(2003,560,67))
-
-
-
-
-
-
-
-
-
-    
-#     if a>b:
-#         if a>c:
-#             return a
-#         else:
-#             return c
-    
-#     if b>a:
-#         if b>c:
-#             return b
-#         else:
-#             return c
-        
-# print(main(3, 4, 5))
